@@ -78,7 +78,7 @@ const App = () => {
         ref={gridRef}
         rowData={data}
         defaultColDef={defaultColDef}
-        getRowId={(row) => row.data.id}
+        getRowId={(row) => row.id}
         statusBar={statusBar}
         columnDefs={[
           {
